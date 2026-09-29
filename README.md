@@ -2,7 +2,7 @@
 
 A React web app to search movies, view details and save favorites, using the TMDb API.
 
-**Live demo:** https://YOUR-APP.vercel.app
+**Live demo:** [https://movie-explorer-gold-two.vercel.app/](https://movie-explorer-gold-two.vercel.app/)
 
 ## Features
 - Login page with validation (demo login, session kept in localStorage)
