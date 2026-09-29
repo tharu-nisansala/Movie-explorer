@@ -148,7 +148,7 @@ export default function SearchResults() {
       {loading && <Box textAlign="center" my={3}><CircularProgress /></Box>}
 
       {!infinite && hasMore && !loading && (
-        <Box textAlign="center" my={3}>
+         <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4, mb: 3 }}>
           <Button variant="outlined" onClick={loadMore}>Load more</Button>
         </Box>
       )}
